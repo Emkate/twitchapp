@@ -1,0 +1,163 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+padding: 0;
+    margin: 0;
+}
+
+a:link{
+    text-decoration: none;
+
+}
+
+a:active{
+    text-decoration: none;
+
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+h2{
+    margin: 0;
+    color: white;
+}
+
+#streamsSection{
+    background-color: brown;
+    font-family: Montserrat,sans-serif;
+    margin-top: 0;
+    height: auto;
+    padding: 30px 0 30px 0;
+}
+
+#menuDiv{
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+#streamsDiv ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#streamsDiv > ul > li{
+    width: 80px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+#streamsDiv ul li a{
+    display: inline-block;
+    color: white;
+    transition: 0.4s;
+    padding: 2px 3px 2px 3px;
+}
+
+#streamsDiv ul li a:hover{
+    text-decoration: none;
+}
+
+#streamsDiv ul li:hover {
+    background-color: white;
+    transition: 0.4s;
+}
+
+#streamsDiv ul li:hover a {
+    color: brown;
+}
+
+#listSection{
+    text-align: center;
+    margin: 0 auto;
+}
+
+#listDiv{
+    background-color: brown;
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+    h2{
+        font-size: 34px;
+    }
+    #streamsSection{
+        width: 100%;
+    }
+
+    #streamsDiv > ul{
+        width: 100%;
+    }
+
+    #streamsDiv > ul > li{
+        width: 80%;
+        border-color: white;
+        border-width: 2px;
+        border-style: solid;
+        padding: 0;
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
+
+@media(min-width: 500px) and (max-width: 768px){
+    h2{
+        font-size: 50px;
+    }
+    #streamsSection{
+        width: 100%;
+    }
+
+    #streamsDiv > ul{
+        width: 100%;
+    }
+
+    #streamsDiv > ul > li{
+        width: 60%;
+        border-color: white;
+        border-width: 2px;
+        border-style: solid;
+        padding: 0;
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media(min-width: 768px) and (max-width: 1200px){
+    #streamsSection{
+        width: 100%;
+    }
+
+
+}
+
+@media(min-width: 1200px){
+    #streamsSection{
+        margin: 0 150px 0 150px;
+    }
+
+}
